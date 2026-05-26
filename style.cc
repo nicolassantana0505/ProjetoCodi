@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;   
+}
+
+.navbar .logo {
+    width: 70px;
+    
+}
+.navbar .logo img {
+    width: 100%;
+  
+   
+}
+
+.navbar .paragrafo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blueviolet;
+    margin-right: 400px;
+}
+
+.navbar .links ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .links ul li {
+    margin-left: 35px;
+
+}
+
+.navbar .links ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.navbar .links ul li a:hover {
+    color: rgb(140, 0, 255);
+    
+}
+
+.navbar .links ul li:hover {
+    scale: 1.2;
+}
+
+
+.container {
+    padding-top: 50px;
+    display: flex;
+   
+    align-items: center;
+    width: 100%;    
+    justify-content: center;
+}
+
+.container .text {
+    width: 50%;
+}
+
+
+.container .text p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+.container .text button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container .text button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+}
+
+.container .photo img {
+    width: 520px;
+}
+
+.caixa {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 60%;    
+    justify-content: center;
+} 
+
+.caixa .string {
+    width: 50%;
+}
+
+.caixa .string p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+
+.caixa .string button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.caixa .string button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+
+}
+
+.box {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;    
+    justify-content: center;
+} 
+
+.box .texto {
+    width: 50%;
+}
+
+.box .texto p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+
+.box .texto button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.box .texto button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+
+}
+
+
+.box {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;    
+    justify-content: center;
+} 
+
+.box .texto {
+    width: 50%;
+}
+
+.box .texto p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+
+.box .texto button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.box .texto button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+
+}
+
+.pedaco {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;   
+    justify-content: center;
+    
+    
+} 
+
+.pedaco .digitado {
+    width: 50%;
+}
+
+.pedaco .digitado p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+
+.pedaco .digitado button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.pedaco .digitado button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+
+}
+
+.bloco {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;  
+    
+ 
+    
+} 
+
+.bloco .escrito {
+    width: 50%;
+}
+
+.bloco .escrito p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+
+.bloco .escrito button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.bloco .escrito button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+
+}
+
+.block {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;   
+    
+    
+    
+} 
+
+.block .digitalizado {
+    width: 50%;
+}
+
+.block .digitalizado p {
+    width: 85%;
+    font-size: 17px;
+    margin: 25px 0;
+    color: gray;
+}
+
+
+.block .digitalizado button {
+    padding: 12px 22px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.block .digitalizado button:hover {
+    background: rgb(81, 18, 255);
+    scale: 1.2;
+
+}
